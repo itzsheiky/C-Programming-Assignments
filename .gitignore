@@ -1,0 +1,4 @@
+# Compiled programs and the feedback created while running the example
+*.exe
+*.o
+feedback.txt
