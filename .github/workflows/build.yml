@@ -1,0 +1,14 @@
+name: Build C programs
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile each program
+        run: |
+          for source in calculator.c feedback.c atm.c student_records.c; do
+            gcc -std=c11 -Wall -Wextra -Werror -pedantic "$source" -o "${source%.c}"
+          done

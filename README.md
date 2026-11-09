@@ -1,9 +1,8 @@
 # C Programming Assignments
 
 **Student:** Sheik Dawood  
-**Course:** B.E. Computer Science and Engineering
 
-Four small C programs for practicing first-year programming concepts. Each program is independent and has its own `main` function.
+Four small C programs for practicing core programming concepts. Each program is independent and has its own `main` function.
 
 | File | What it does | Main concept |
 | --- | --- | --- |
@@ -80,3 +79,5 @@ I also ran checks for division by zero, an invalid feedback rating, invalid PIN,
 ## Inspiration
 
 The four assignment topics were inspired by [saba1207B/C_Language_Assigments](https://github.com/saba1207B/C_Language_Assigments). The programs and this README were written afresh for this project; no source files, screenshots, or README text were copied from that repository.
+
+See [review notes](REVIEW_NOTES.md) for suggested feedback based on the code, without inventing personal class experiences.
